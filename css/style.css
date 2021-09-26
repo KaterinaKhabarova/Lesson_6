@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap&subset=cyrillic-ext");
+
+/* &display=swap&subset=cyrillic-ext */
+.wrapper {
+   background-color: #d4bed4;
+   font-family: "PT Sans", sans-serif;
+}
+h1 {
+   color: crimson;
+   width: 500px;
+   background-color: rgb(166, 233, 233);
+   font-size: 32px;
+   margin-bottom: 20px;
+   border: 1px solid cornflowerblue;
+   border-radius: 40px;
+}
+h2 {
+   font-size: 24px;
+   margin-left: 50px;
+   margin-bottom: 10px;
+}
+header,
+nav {
+   margin-left: 50px;
+   margin-bottom: 20px;
+}
+header p {
+   box-shadow: 1px 10px 100px rgb(181, 151, 209);
+}
+.menu_1,
+.menu_2,
+.menu_3,
+.menu_4,
+.menu_5,
+.menu_6,
+.menu_7,
+.menu_8,
+.menu_9,
+.menu_10,
+.menu_11 {
+   margin-left: 50px;
+   margin-bottom: 20px;
+   padding: 20px;
+   background-color: rgb(168, 164, 164);
+   max-width: 1000px;
+   border: 1px dashed blueviolet;
+}
+div.menu_1 {
+   border-radius: 88% 12% 94% 6% / 17% 70% 30% 83%;
+}
+
+div.menu_2 {
+   overflow: hidden;
+   border: none;
+   outline: 2px dashed deepskyblue;
+}
+
+div.menu_3 {
+   border-radius: 0% 100% 100% 0% / 100% 100% 0% 0%;
+   box-shadow: inset 20px 20px 70px 20px rgb(58, 148, 179);
+}
+div.menu_4 p {
+   background-color: rgb(180, 116, 195);
+   opacity: 50%;
+}
+
+div.menu_5 {
+   border-radius: 65% 35% 23% 77% / 100% 100% 0% 0%;
+   box-shadow: inset 20px 20px 70px 20px rgb(204, 240, 44);
+}
+div.menu_6 {
+   border: 10px double blueviolet;
+}
+div.menu_6 p {
+   opacity: 20%;
+}
+
+div.menu_7 {
+   border-radius: 0% 100% 36% 64% / 100% 32% 68% 0%;
+   box-shadow: 20px 20px 70px 20px rgb(108, 59, 223);
+   overflow: hidden;
+}
+div.menu_8 {
+   border: 10px solid transparent;
+}
+div.menu_9 {
+   border: none;
+   outline: 5px solid palevioletred;
+}
+
+div.menu_11 {
+   border-bottom: 10px solid rgb(9, 255, 0);
+}
+
+nav a {
+   color: black;
+   text-decoration: underline rgb(41, 182, 168);
+}
+
+nav a:hover {
+   color: rgb(0, 255, 234);
+}
+
+img {
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+.second_img {
+   width: 520px;
+   height: auto;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+.seventeenth_img {
+   width: 520px;
+   height: auto;
+}
+
+footer {
+   visibility: hidden;
+}
+
+/* Homework */
+div.homework {
+   margin-left: 50px;
+}
+h3 {
+   font-size: 19px;
+   margin-bottom: 10px;
+}
+p.homework_2_1 {
+   background-color: cornflowerblue;
+   font-size: 20px;
+   text-align: center;
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+}
+div.homework_2_1,
+div.homework_2_2,
+div.homework_2_3,
+div.homework_2_4,
+div.homework_2_5 {
+   margin-bottom: 20px;
+}
+
+.homework_2_2 p {
+   background-color: rgb(199, 52, 204);
+   display: inline-block;
+   width: 200px;
+   height: 200px;
+   opacity: 50%;
+   font-size: 30px;
+}
+.homework_2_3 span {
+   display: block;
+   background-color: #fff;
+   border: 1px solid blue;
+   font-size: 30px;
+}
+.homework_2_4 p {
+   background-color: rgb(219, 156, 156);
+   font-size: 30px;
+   border-top: 1px solid red;
+   border-right: 5px dotted mediumaquamarine;
+   border-bottom: 10px solid orange;
+   border-left: 5px dashed rgb(38, 0, 209);
+}
+
+.homework_2_5 a {
+   font-size: 30px;
+   background-color: rgb(161, 219, 156);
+   display: inline-block;
+   box-shadow: 20px 20px 70px 20px deepskyblue;
+}
